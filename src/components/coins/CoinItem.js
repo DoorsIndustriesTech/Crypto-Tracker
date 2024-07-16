@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Pressable, StyleSheet, Platform } from 'react-native';
-import Colors from 'cryptoTracker/src/resources/colors';
+import Colors from '../../resources/colors';
 
 const CoinsItem = ({ item, onPress }) => {
 

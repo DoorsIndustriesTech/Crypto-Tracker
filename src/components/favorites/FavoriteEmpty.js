@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import Colors from 'cryptoTracker/src/resources/colors';
+import Colors from '../../resources/colors';
 
 const FavoriteEmpty = () => {
 

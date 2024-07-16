@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, Image, SectionList, FlatList, Pressable, Alert } from 'react-native';
-import Colors from 'cryptoTracker/src/resources/colors';
-import Http from 'cryptoTracker/src/libs/http';
+import Colors from '../../resources/colors';
+import Http from '../../libs/http';
 import CoinMarketsItem from './CoinMarketsItem';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { faStar as faStarRegular } from '@fortawesome/free-regular-svg-icons';
 import { faStar as faStarSolid } from '@fortawesome/free-solid-svg-icons';
-import Storage from 'cryptoTracker/src/libs/storage';
+import Storage from '../../libs/storage';
 
 class CoinDetailsScreen extends Component {
 
